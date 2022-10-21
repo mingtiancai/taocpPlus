@@ -2,7 +2,10 @@
 .xmake/
 build/
 
+# Windows vs cache
+.vs/
+CppProperties.json
+Launch.vs.json
+
 # MacOS Cache
 .DS_Store
-
-

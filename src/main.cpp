@@ -1,9 +1,14 @@
 #include <iostream>
 
+#include "test.h"
+
 using namespace std;
 
-int main(int argc, char** argv)
-{
-    cout << "hello world!" << endl;
-    return 0;
+int main(int argc, char** argv) {
+  cout << "hello world!" << endl;
+  Test t;
+
+  cout << t.getName() << endl;
+
+  return 0;
 }
