@@ -1,7 +1,7 @@
 # taocpPlus is a C++ library with c++20 standard to implement algorithms in TAOCP by Donald E. Knuth. 
 
 
-# Commit message prefix¶
+# Commit message prefix
 
  BUG:   - a change made to fix a runtime issue
             (crash, segmentation fault, exception, or incorrect result).
