@@ -4,8 +4,16 @@ build/
 
 # Windows vs cache
 .vs/
+vsxmake2022/
+vsxmake2019/
+vsxmake2017/
+vsxmake2015/
+
 CppProperties.json
 Launch.vs.json
 
 # MacOS Cache
 .DS_Store
+
+#vs code project
+.vscode/
