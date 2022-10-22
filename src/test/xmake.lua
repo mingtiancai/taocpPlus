@@ -1,0 +1,5 @@
+target("taocpPlus")
+    set_kind("binary")
+    -- set_kind("shared")
+    add_headerfiles("*.h")
+    add_files("*.cpp") 
