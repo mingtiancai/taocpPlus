@@ -2,38 +2,39 @@
 #define GCD_H
 
 template <typename T>
-void exchange(const T& a, const T& b) 
+void exchange(T& a, T& b)
 {
-    T c;
-    c = a;
-    a = b;
+	T c;
+	c = a;
+	a = b;
+	b = c;
 }
 
 template <typename T>
-T gcd(T m,T n)
+T gcd(T m, T n)
 {
-    if(m < n)
-        exchange(m, n);
+	if (m < n)
+		exchange(m, n);
 
-    T result = 1;
+	T result = 1;
 
-    while(m != 1)
-    {
-         T r;
-         r = m % n;
-         if(r == 0)
-         {
-            result = n;
-            break;
-         }
-         else
-         {
-            m = n;
-            n = r;
-         }
-    }
+	while (m != 1)
+	{
+		T r;
+		r = m % n;
+		if (r == 0)
+		{
+			result = n;
+			break;
+		}
+		else
+		{
+			m = n;
+			n = r;
+		}
+	}
 
-    return result;
+	return result;
 }
 
 #endif

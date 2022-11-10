@@ -11,10 +11,10 @@ int main(int argc, char** argv) {
 
 	cout << t.getName() << endl;
 
-	int m =	11;
-	int n =	2;
+	int m = 1;
+	int n = 22;
 
-	cout << gcd<int>(m,n) <<endl;
+	cout << gcd<int>(m, n) << endl;
 
 	return 0;
 }
