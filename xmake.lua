@@ -1,9 +1,13 @@
+set_project("xxx")
+
 add_rules("mode.debug", "mode.release")
 
-target("taocpPlus")
-    set_kind("binary")
-    includes("src")
+add_requires("gtest")
 
+includes("src")
+includes("test")
+
+add_includedirs("src/volume1")
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
 --
