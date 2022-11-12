@@ -18,5 +18,9 @@
 
 
 # build 
-## build in visual studio 2022
+## generate for visual studio 2022 project
 xmake project -k vsxmake -a x64
+
+## set compile mode
+xmake f -m release --- release
+xmake f -m debug --- debug
