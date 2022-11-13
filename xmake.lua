@@ -1,4 +1,4 @@
-set_project("xxx")
+set_project("taocpPlus")
 
 add_rules("mode.debug", "mode.release")
 
